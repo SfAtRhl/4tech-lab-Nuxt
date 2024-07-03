@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Druk:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Font+Awesome+5+Free:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+/* Background Colors */
+    .bg-primary {
+        background-color: #70B4C3;
+    }
+
+    .bg-secondary {
+        background-color: #848484;
+    }
+
+    .bg-accent {
+        background-color: #F4AB22;
+    }
+
+    .bg-darkBlue {
+        background-color: #18495C;
+    }
+
+    .bg-lightBlue {
+        background-color: #F1F8F9;
+    }
+
+    .bg-black {
+        background-color: #141414;
+    }
+
+    .bg-deepBlue {
+        background-color: #042A38;
+    }
+
+    .bg-gray {
+        background-color: #E3E7E8;
+    }
+
+    /* Text Colors */
+    .text-primary {
+        color: #70B4C3;
+    }
+
+    .text-secondary {
+        color: #848484;
+    }
+
+    .text-accent {
+        color: #F4AB22;
+    }
+
+    .text-darkBlue {
+        color: #18495C;
+    }
+
+    .text-lightBlue {
+        color: #F1F8F9;
+    }
+
+    .text-black {
+        color: #141414;
+    }
+
+    .text-deepBlue {
+        color: #042A38;
+    }
+
+    .text-gray {
+        color: #E3E7E8;
+    }
+
+    .font-inter {
+        font-family: 'Inter', sans-serif;
+    }
+
+    .font-druk {
+        font-family: 'Druk', sans-serif;
+    }
+
+    .font-fontAwesome {
+        font-family: 'Font Awesome 5 Free', sans-serif;
+    }
+
+    .text-12 {
+        font-size: 12px;
+    }
+
+    .text-13 {
+        font-size: 13px;
+    }
+
+    .text-16 {
+        font-size: 16px;
+    }
+
+    .text-18 {
+        font-size: 18px;
+    }
+
+    .text-22 {
+        font-size: 22px;
+    }
+
+    .text-40 {
+        font-size: 40px;
+    }
+
+    .leading-15 {
+        line-height: 15px;
+    }
+
+    .leading-18 {
+        line-height: 18px;
+    }
+
+    .leading-21 {
+        line-height: 21px;
+    }
+
+    .leading-24 {
+        line-height: 24px;
+    }
+
+    .leading-26 {
+        line-height: 26px;
+    }
+
+    .leading-48 {
+        line-height: 48px;
+    }
+
+    .tracking-0 {
+        letter-spacing: 0px;
+    }
+
+    .tracking--0-24 {
+        letter-spacing: -0.24px;
+    }
+
+    .tracking--0-54 {
+        letter-spacing: -0.54px;
+    }
+
+    .tracking--0-66 {
+        letter-spacing: -0.66px;
+    }
+
+    .tracking--0-39 {
+        letter-spacing: -0.39px;
+    }
+
+    .tracking--0-32 {
+        letter-spacing: -0.32px;
+    }
+
+    .typography-1 {
+        font-family: 'Font Awesome 5 Free', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: -0.24px;
+        color: #042A38;
+        /* deepBlue */
+    }
+    
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}
